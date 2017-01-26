@@ -1,0 +1,7 @@
+base   remotelistnamespace
+author Michael Braun
+email  michael-dev@fami-braun.de
+date   2017-01-26
+name   listNamespace XMLRPC method
+desc   This plugins just adds an XMLRPC method called remotelistnamespace.listNamespace
+url    https://www.dokuwiki.org/plugin:remotelistnamespace
