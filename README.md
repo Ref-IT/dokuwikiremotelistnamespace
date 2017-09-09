@@ -3,6 +3,7 @@
 Example usage:
 
     $depth = 1;
-    $wikiClient = XML_RPC2_Client::create($wikiUrl."/lib/exe/xmlrpc.php", Array("httpRequest" => $request, "backend" => "php"));
+    $wikiUrl = "https://wiki.example.org";
+    $wikiClient = XML_RPC2_Client::create($wikiUrl."/lib/exe/xmlrpc.php");
     $method="plugin.remotelistnamespace.listNamespace";
     $result = $wikiClient->$method($wiki, [ "depth" => $depth ]);
